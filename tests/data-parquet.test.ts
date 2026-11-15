@@ -1,6 +1,6 @@
 // @vitest-environment node
 import { describe, it, expect, beforeAll, afterAll } from "vitest";
-import { copyFileSync, existsSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
+import { copyFileSync, existsSync, mkdtempSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
@@ -95,6 +95,40 @@ describe.skipIf(!hasData)("plugin query imports", () => {
         const path = join(DATA_DIR, "campuses_canonical.parquet") + "?columns=id";
         const mod = await import(/* @vite-ignore */ path);
         expect(Object.keys(mod.default[0])).toEqual(["id"]);
+    });
+});
+
+describe.skipIf(!hasData)("normalized names in the committed Parquet", () => {
+    it("every table is already normalized (dry run changes nothing)", async () => {
+        // @ts-expect-error plain ESM module without types
+        const { normalizeParquetFile, datasetOf } = await import("../scripts/normalize-parquet.mjs");
+        // @ts-expect-error plain ESM module without types
+        const { EXCLUDE_DATASETS } = await import("../scripts/normalize-names.mjs");
+        const files = readdirSync(DATA_DIR).filter((f) => f.endsWith(".parquet") && !EXCLUDE_DATASETS.has(datasetOf(f)));
+        expect(files.length).toBeGreaterThan(0);
+        const changed: string[] = [];
+        for (const f of files) {
+            if ((await normalizeParquetFile(join(DATA_DIR, f), { dryRun: true })) > 0) changed.push(f);
+        }
+        expect(changed).toEqual([]);
+    }, 300_000);
+
+    it("researcher names are Title Case with acronyms kept", async () => {
+        const rows = await readParquetTable(join(DATA_DIR, "researchers_canonical.parquet"), { columns: ["name"] });
+        const names = rows.map((r: any) => r.name).filter((n: unknown): n is string => typeof n === "string" && n.length > 0);
+        expect(names.length).toBeGreaterThan(0);
+        for (const n of names) {
+            expect(n).toBe(n.trim());
+            // No fully upper-case multi-word names left (e.g. "MARIA DA SILVA").
+            expect(/\s/.test(n) && n === n.toUpperCase() && /[A-Z]{4,}/.test(n)).toBe(false);
+        }
+    });
+
+    it("short_name values are trimmed but keep their case", async () => {
+        const rows = await readParquetTable(join(DATA_DIR, "research_groups_canonical.parquet"), { columns: ["short_name"] });
+        const values = rows.map((r: any) => r.short_name).filter((v: unknown): v is string => typeof v === "string");
+        for (const v of values) expect(v).toBe(v.trim());
+        expect(values.some((v: string) => v.length > 1 && v === v.toUpperCase())).toBe(true);
     });
 });
 
