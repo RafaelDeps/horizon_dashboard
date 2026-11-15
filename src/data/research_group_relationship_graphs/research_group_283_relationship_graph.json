@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-09-23T21:46:20.870099+00:00",
+        "generated_at": "2026-11-15T02:25:14.670210+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -42,26 +42,26 @@
             "advisorship": 0
         },
         "classification_distribution": {
-            "student": 2,
-            "researcher": 1
+            "researcher": 1,
+            "student": 2
         },
         "top_people_by_weighted_degree": [
             {
-                "id": 390,
+                "id": 389,
                 "name": "Daniela Bertolini Depizzol",
                 "classification": "researcher",
                 "weighted_degree": 2,
                 "degree": 2
             },
             {
-                "id": 5992,
+                "id": 6046,
                 "name": "Caetano Malacarne Biancardi",
                 "classification": "student",
                 "weighted_degree": 2,
                 "degree": 2
             },
             {
-                "id": 5993,
+                "id": 6047,
                 "name": "Tiago Luz Oliveira",
                 "classification": "student",
                 "weighted_degree": 2,
@@ -75,6 +75,19 @@
         "graph": {},
         "nodes": [
             {
+                "name": "Daniela Bertolini Depizzol",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Cariacica",
+                "degree": 2,
+                "weighted_degree": 2,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 389
+            },
+            {
                 "name": "Caetano Malacarne Biancardi",
                 "classification": "student",
                 "classification_confidence": "medium",
@@ -85,7 +98,7 @@
                 "weighted_degree": 2,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 5992
+                "id": 6046
             },
             {
                 "name": "Tiago Luz Oliveira",
@@ -98,20 +111,7 @@
                 "weighted_degree": 2,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 5993
-            },
-            {
-                "name": "Daniela Bertolini Depizzol",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Cariacica",
-                "degree": 2,
-                "weighted_degree": 2,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 390
+                "id": 6047
             }
         ],
         "edges": [
@@ -123,8 +123,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5992,
-                "target": 390
+                "source": 389,
+                "target": 6046
             },
             {
                 "weight": 1,
@@ -134,8 +134,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5992,
-                "target": 5993
+                "source": 389,
+                "target": 6047
             },
             {
                 "weight": 1,
@@ -145,8 +145,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5993,
-                "target": 390
+                "source": 6046,
+                "target": 6047
             }
         ]
     }
