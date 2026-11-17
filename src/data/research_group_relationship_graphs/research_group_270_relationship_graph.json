@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-15T02:25:13.593669+00:00",
+        "generated_at": "2026-11-17T07:01:48.562583+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -68,14 +68,14 @@
                 "degree": 7
             },
             {
-                "id": 5783,
+                "id": 5785,
                 "name": "João Paulo Nascimento Armeloni",
                 "classification": "student",
                 "weighted_degree": 9,
                 "degree": 7
             },
             {
-                "id": 4799,
+                "id": 4801,
                 "name": "Daniela da Gama e Silva Volpe Moreira de Moraes",
                 "classification": "researcher",
                 "weighted_degree": 8,
@@ -89,21 +89,21 @@
                 "degree": 7
             },
             {
-                "id": 5164,
+                "id": 5166,
                 "name": "Denilton Macário de Paula",
                 "classification": "researcher",
                 "weighted_degree": 7,
                 "degree": 7
             },
             {
-                "id": 5219,
+                "id": 5221,
                 "name": "Amanda Soares dos Santos",
                 "classification": "student",
                 "weighted_degree": 7,
                 "degree": 1
             },
             {
-                "id": 5784,
+                "id": 5786,
                 "name": "Luiz Sávio de Araújo Júnior",
                 "classification": "researcher",
                 "weighted_degree": 7,
@@ -117,7 +117,7 @@
                 "degree": 2
             },
             {
-                "id": 14898,
+                "id": 14688,
                 "name": "Jhonis Alves Coelho",
                 "classification": "student",
                 "weighted_degree": 2,
@@ -131,6 +131,32 @@
         "graph": {},
         "nodes": [
             {
+                "name": "Jhonis Alves Coelho",
+                "classification": "student",
+                "classification_confidence": "high",
+                "was_student": true,
+                "was_staff": false,
+                "campus_name": null,
+                "degree": 1,
+                "weighted_degree": 2,
+                "is_group_member": false,
+                "is_advisorship_neighbor": true,
+                "id": 14688
+            },
+            {
+                "name": "Daniela da Gama e Silva Volpe Moreira de Moraes",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Cariacica",
+                "degree": 8,
+                "weighted_degree": 8,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 4801
+            },
+            {
                 "name": "Amanda Soares dos Santos",
                 "classification": "student",
                 "classification_confidence": "medium",
@@ -141,7 +167,7 @@
                 "weighted_degree": 7,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 5219
+                "id": 5221
             },
             {
                 "name": "Lucas de Carvalho Guesse",
@@ -167,7 +193,7 @@
                 "weighted_degree": 7,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 5164
+                "id": 5166
             },
             {
                 "name": "Rodrigo Loureiro Medeiros",
@@ -183,19 +209,6 @@
                 "id": 145
             },
             {
-                "name": "Jhonis Alves Coelho",
-                "classification": "student",
-                "classification_confidence": "high",
-                "was_student": true,
-                "was_staff": false,
-                "campus_name": null,
-                "degree": 1,
-                "weighted_degree": 2,
-                "is_group_member": false,
-                "is_advisorship_neighbor": true,
-                "id": 14898
-            },
-            {
                 "name": "Tiago José Menezes Gonçalves",
                 "classification": "researcher",
                 "classification_confidence": "high",
@@ -209,19 +222,6 @@
                 "id": 372
             },
             {
-                "name": "João Paulo Nascimento Armeloni",
-                "classification": "student",
-                "classification_confidence": "medium",
-                "was_student": true,
-                "was_staff": false,
-                "campus_name": "Cariacica",
-                "degree": 7,
-                "weighted_degree": 9,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 5783
-            },
-            {
                 "name": "Luiz Sávio de Araújo Júnior",
                 "classification": "researcher",
                 "classification_confidence": "high",
@@ -232,7 +232,20 @@
                 "weighted_degree": 7,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 5784
+                "id": 5786
+            },
+            {
+                "name": "João Paulo Nascimento Armeloni",
+                "classification": "student",
+                "classification_confidence": "medium",
+                "was_student": true,
+                "was_staff": false,
+                "campus_name": "Cariacica",
+                "degree": 7,
+                "weighted_degree": 9,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 5785
             },
             {
                 "name": "Maria Claudia Lima Couto",
@@ -259,22 +272,109 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 3837
-            },
-            {
-                "name": "Daniela da Gama e Silva Volpe Moreira de Moraes",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Cariacica",
-                "degree": 8,
-                "weighted_degree": 8,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 4799
             }
         ],
         "edges": [
+            {
+                "weight": 2,
+                "initiative_count": 1,
+                "research_group_count": 0,
+                "advisorship_count": 1,
+                "relation_types": [
+                    "initiative",
+                    "advisorship"
+                ],
+                "source": 14688,
+                "target": 3594
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 2330
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 145
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 372
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 3594
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 3837
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 5166
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 5785
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4801,
+                "target": 5786
+            },
             {
                 "weight": 7,
                 "initiative_count": 4,
@@ -284,7 +384,7 @@
                     "initiative",
                     "advisorship"
                 ],
-                "source": 5219,
+                "source": 5221,
                 "target": 3594
             },
             {
@@ -300,18 +400,6 @@
                 "target": 2330
             },
             {
-                "weight": 2,
-                "initiative_count": 1,
-                "research_group_count": 0,
-                "advisorship_count": 1,
-                "relation_types": [
-                    "initiative",
-                    "advisorship"
-                ],
-                "source": 3594,
-                "target": 14898
-            },
-            {
                 "weight": 1,
                 "initiative_count": 0,
                 "research_group_count": 1,
@@ -353,7 +441,7 @@
                     "research_group"
                 ],
                 "source": 3594,
-                "target": 4799
+                "target": 5166
             },
             {
                 "weight": 1,
@@ -364,7 +452,7 @@
                     "research_group"
                 ],
                 "source": 3594,
-                "target": 5164
+                "target": 5785
             },
             {
                 "weight": 1,
@@ -375,7 +463,7 @@
                     "research_group"
                 ],
                 "source": 3594,
-                "target": 5783
+                "target": 5786
             },
             {
                 "weight": 1,
@@ -385,18 +473,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3594,
-                "target": 5784
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 5164,
+                "source": 5166,
                 "target": 145
             },
             {
@@ -407,7 +484,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5164,
+                "source": 5166,
                 "target": 372
             },
             {
@@ -418,7 +495,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5164,
+                "source": 5166,
                 "target": 3837
             },
             {
@@ -429,8 +506,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5164,
-                "target": 4799
+                "source": 5166,
+                "target": 5785
             },
             {
                 "weight": 1,
@@ -440,19 +517,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5164,
-                "target": 5783
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 5164,
-                "target": 5784
+                "source": 5166,
+                "target": 5786
             },
             {
                 "weight": 3,
@@ -477,17 +543,6 @@
                 "target": 3837
             },
             {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 145,
-                "target": 4799
-            },
-            {
                 "weight": 2,
                 "initiative_count": 0,
                 "research_group_count": 2,
@@ -496,7 +551,7 @@
                     "research_group"
                 ],
                 "source": 145,
-                "target": 5783
+                "target": 5785
             },
             {
                 "weight": 1,
@@ -507,7 +562,7 @@
                     "research_group"
                 ],
                 "source": 145,
-                "target": 5784
+                "target": 5786
             },
             {
                 "weight": 1,
@@ -519,17 +574,6 @@
                 ],
                 "source": 372,
                 "target": 3837
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 372,
-                "target": 4799
             },
             {
                 "weight": 2,
@@ -540,7 +584,7 @@
                     "research_group"
                 ],
                 "source": 372,
-                "target": 5783
+                "target": 5785
             },
             {
                 "weight": 1,
@@ -551,7 +595,7 @@
                     "research_group"
                 ],
                 "source": 372,
-                "target": 5784
+                "target": 5786
             },
             {
                 "weight": 1,
@@ -561,7 +605,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5783,
+                "source": 5786,
                 "target": 3837
             },
             {
@@ -572,8 +616,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5783,
-                "target": 4799
+                "source": 5786,
+                "target": 5785
             },
             {
                 "weight": 1,
@@ -583,52 +627,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 5783,
-                "target": 5784
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 5784,
+                "source": 5785,
                 "target": 3837
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 5784,
-                "target": 4799
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 2330,
-                "target": 4799
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 3837,
-                "target": 4799
             }
         ]
     }

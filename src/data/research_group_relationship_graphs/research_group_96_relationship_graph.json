@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-15T02:25:00.452547+00:00",
+        "generated_at": "2026-11-17T07:01:37.971385+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -244,6 +244,19 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 2317
+            },
+            {
+                "name": "Mônica Castoldi Borlini Gadioli",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": null,
+                "degree": 1,
+                "weighted_degree": 4,
+                "is_group_member": false,
+                "is_advisorship_neighbor": true,
+                "id": 10004
             },
             {
                 "name": "Rosieli Geraldina Merotto Foletto",
@@ -1089,19 +1102,6 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 2913
-            },
-            {
-                "name": "Mônica Castoldi Borlini Gadioli",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": null,
-                "degree": 1,
-                "weighted_degree": 4,
-                "is_group_member": false,
-                "is_advisorship_neighbor": true,
-                "id": 10172
             },
             {
                 "name": "Thiago do Nascimento Ouverney",
@@ -4092,6 +4092,18 @@
                 ],
                 "source": 2317,
                 "target": 2913
+            },
+            {
+                "weight": 4,
+                "initiative_count": 3,
+                "research_group_count": 0,
+                "advisorship_count": 1,
+                "relation_types": [
+                    "initiative",
+                    "advisorship"
+                ],
+                "source": 10004,
+                "target": 456
             },
             {
                 "weight": 3,
@@ -20496,18 +20508,6 @@
                 ],
                 "source": 71,
                 "target": 2913
-            },
-            {
-                "weight": 4,
-                "initiative_count": 3,
-                "research_group_count": 0,
-                "advisorship_count": 1,
-                "relation_types": [
-                    "initiative",
-                    "advisorship"
-                ],
-                "source": 456,
-                "target": 10172
             },
             {
                 "weight": 1,
