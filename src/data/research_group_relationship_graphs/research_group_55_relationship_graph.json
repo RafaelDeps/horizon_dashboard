@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:35.510582+00:00",
+        "generated_at": "2026-11-18T11:11:57.210578+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -218,6 +218,19 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 1046
+            },
+            {
+                "name": "Messenas Miranda Rocha",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": null,
+                "degree": 1,
+                "weighted_degree": 2,
+                "is_group_member": false,
+                "is_advisorship_neighbor": true,
+                "id": 10154
             },
             {
                 "name": "Márcia Gonçalves De Oliveira",
@@ -959,19 +972,6 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 233
-            },
-            {
-                "name": "Messenas Miranda Rocha",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": null,
-                "degree": 1,
-                "weighted_degree": 2,
-                "is_group_member": false,
-                "is_advisorship_neighbor": true,
-                "id": 9931
             },
             {
                 "name": "Ana Paula Brasil",
@@ -2252,6 +2252,18 @@
                 ],
                 "source": 1046,
                 "target": 2272
+            },
+            {
+                "weight": 2,
+                "initiative_count": 1,
+                "research_group_count": 0,
+                "advisorship_count": 1,
+                "relation_types": [
+                    "initiative",
+                    "advisorship"
+                ],
+                "source": 10154,
+                "target": 2269
             },
             {
                 "weight": 2,
@@ -19512,18 +19524,6 @@
                 ],
                 "source": 2268,
                 "target": 2272
-            },
-            {
-                "weight": 2,
-                "initiative_count": 1,
-                "research_group_count": 0,
-                "advisorship_count": 1,
-                "relation_types": [
-                    "initiative",
-                    "advisorship"
-                ],
-                "source": 2269,
-                "target": 9931
             },
             {
                 "weight": 2,

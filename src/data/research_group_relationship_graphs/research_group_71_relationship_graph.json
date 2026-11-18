@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:36.384944+00:00",
+        "generated_at": "2026-11-18T11:11:57.848645+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -60,14 +60,14 @@
                 "degree": 3
             },
             {
-                "id": 2471,
+                "id": 2472,
                 "name": "Gabriela Pereira Lubke Izoton",
                 "classification": "researcher",
                 "weighted_degree": 3,
                 "degree": 3
             },
             {
-                "id": 2472,
+                "id": 2473,
                 "name": "Marcos Hortolani Boldrim",
                 "classification": "researcher",
                 "weighted_degree": 3,
@@ -81,7 +81,7 @@
         "graph": {},
         "nodes": [
             {
-                "name": "Marcos Hortolani Boldrim",
+                "name": "Gabriela Pereira Lubke Izoton",
                 "classification": "researcher",
                 "classification_confidence": "high",
                 "was_student": false,
@@ -92,6 +92,19 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 2472
+            },
+            {
+                "name": "Marcos Hortolani Boldrim",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Nova Venécia",
+                "degree": 3,
+                "weighted_degree": 3,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 2473
             },
             {
                 "name": "Marcela Giacometti de Avelar",
@@ -118,19 +131,6 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 101
-            },
-            {
-                "name": "Gabriela Pereira Lubke Izoton",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Nova Venécia",
-                "degree": 3,
-                "weighted_degree": 3,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 2471
             }
         ],
         "edges": [
@@ -165,7 +165,29 @@
                     "research_group"
                 ],
                 "source": 2472,
-                "target": 2471
+                "target": 2473
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 2473,
+                "target": 101
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 2473,
+                "target": 1541
             },
             {
                 "weight": 1,
@@ -177,28 +199,6 @@
                 ],
                 "source": 1541,
                 "target": 101
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 1541,
-                "target": 2471
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 101,
-                "target": 2471
             }
         ]
     }

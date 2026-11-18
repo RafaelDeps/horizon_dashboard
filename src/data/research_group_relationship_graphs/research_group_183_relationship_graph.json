@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:42.849173+00:00",
+        "generated_at": "2026-11-18T11:12:02.654194+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -67,35 +67,35 @@
                 "degree": 6
             },
             {
-                "id": 4188,
+                "id": 4189,
                 "name": "Mário Roberto Bellini Tasca",
                 "classification": "researcher",
                 "weighted_degree": 7,
                 "degree": 6
             },
             {
-                "id": 4186,
+                "id": 4187,
                 "name": "Antonio Ricardo Grippa Satiro",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 5
             },
             {
-                "id": 4187,
+                "id": 4188,
                 "name": "Josimar Antonio Cusini Grippa",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 5
             },
             {
-                "id": 4189,
+                "id": 4190,
                 "name": "Uenderson Ramiro de Freitas",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 5
             },
             {
-                "id": 4190,
+                "id": 4191,
                 "name": "Warlen Alves Monfardini",
                 "classification": "researcher",
                 "weighted_degree": 5,
@@ -120,19 +120,6 @@
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
                 "id": 260
-            },
-            {
-                "name": "Antonio Ricardo Grippa Satiro",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Aracruz",
-                "degree": 5,
-                "weighted_degree": 5,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 4186
             },
             {
                 "name": "Adonias Ribeiro Franco Junior",
@@ -161,7 +148,7 @@
                 "id": 442
             },
             {
-                "name": "Josimar Antonio Cusini Grippa",
+                "name": "Antonio Ricardo Grippa Satiro",
                 "classification": "researcher",
                 "classification_confidence": "high",
                 "was_student": false,
@@ -174,6 +161,19 @@
                 "id": 4187
             },
             {
+                "name": "Josimar Antonio Cusini Grippa",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Aracruz",
+                "degree": 5,
+                "weighted_degree": 5,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 4188
+            },
+            {
                 "name": "Mário Roberto Bellini Tasca",
                 "classification": "researcher",
                 "classification_confidence": "high",
@@ -184,7 +184,7 @@
                 "weighted_degree": 7,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 4188
+                "id": 4189
             },
             {
                 "name": "Uenderson Ramiro de Freitas",
@@ -197,7 +197,7 @@
                 "weighted_degree": 5,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 4189
+                "id": 4190
             },
             {
                 "name": "Warlen Alves Monfardini",
@@ -210,7 +210,7 @@
                 "weighted_degree": 5,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 4190
+                "id": 4191
             }
         ],
         "edges": [
@@ -235,17 +235,6 @@
                     "research_group"
                 ],
                 "source": 260,
-                "target": 4186
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 260,
                 "target": 4187
             },
             {
@@ -289,41 +278,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 4186,
-                "target": 4187
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 4186,
-                "target": 4188
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 4186,
-                "target": 4189
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 4186,
-                "target": 4190
+                "source": 260,
+                "target": 4191
             },
             {
                 "weight": 7,
@@ -347,7 +303,7 @@
                     "advisorship"
                 ],
                 "source": 442,
-                "target": 4188
+                "target": 4189
             },
             {
                 "weight": 1,
@@ -390,6 +346,17 @@
                 "relation_types": [
                     "research_group"
                 ],
+                "source": 4187,
+                "target": 4191
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
                 "source": 4188,
                 "target": 4189
             },
@@ -403,6 +370,17 @@
                 ],
                 "source": 4188,
                 "target": 4190
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4188,
+                "target": 4191
             },
             {
                 "weight": 1,
@@ -414,6 +392,28 @@
                 ],
                 "source": 4189,
                 "target": 4190
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4189,
+                "target": 4191
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 4190,
+                "target": 4191
             }
         ]
     }

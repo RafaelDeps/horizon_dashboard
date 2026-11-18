@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:44.306328+00:00",
+        "generated_at": "2026-11-18T11:12:03.751329+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -53,14 +53,14 @@
                 "degree": 2
             },
             {
-                "id": 3800,
+                "id": 3801,
                 "name": "Hiáscara Alves Pereira Jardim",
                 "classification": "researcher",
                 "weighted_degree": 2,
                 "degree": 2
             },
             {
-                "id": 4624,
+                "id": 4625,
                 "name": "Sonia Wenceslau Flores Rodrigues",
                 "classification": "researcher",
                 "weighted_degree": 2,
@@ -73,19 +73,6 @@
         "multigraph": false,
         "graph": {},
         "nodes": [
-            {
-                "name": "Hiáscara Alves Pereira Jardim",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Colatina",
-                "degree": 2,
-                "weighted_degree": 2,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 3800
-            },
             {
                 "name": "Miquelina Aparecida Deina",
                 "classification": "researcher",
@@ -100,6 +87,19 @@
                 "id": 289
             },
             {
+                "name": "Hiáscara Alves Pereira Jardim",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Colatina",
+                "degree": 2,
+                "weighted_degree": 2,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 3801
+            },
+            {
                 "name": "Sonia Wenceslau Flores Rodrigues",
                 "classification": "researcher",
                 "classification_confidence": "high",
@@ -110,7 +110,7 @@
                 "weighted_degree": 2,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 4624
+                "id": 4625
             }
         ],
         "edges": [
@@ -122,19 +122,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3800,
-                "target": 289
-            },
-            {
-                "weight": 1,
-                "initiative_count": 0,
-                "research_group_count": 1,
-                "advisorship_count": 0,
-                "relation_types": [
-                    "research_group"
-                ],
-                "source": 3800,
-                "target": 4624
+                "source": 289,
+                "target": 3801
             },
             {
                 "weight": 1,
@@ -145,7 +134,18 @@
                     "research_group"
                 ],
                 "source": 289,
-                "target": 4624
+                "target": 4625
+            },
+            {
+                "weight": 1,
+                "initiative_count": 0,
+                "research_group_count": 1,
+                "advisorship_count": 0,
+                "relation_types": [
+                    "research_group"
+                ],
+                "source": 3801,
+                "target": 4625
             }
         ]
     }

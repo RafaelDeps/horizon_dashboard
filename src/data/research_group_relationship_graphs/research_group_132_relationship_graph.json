@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:40.070635+00:00",
+        "generated_at": "2026-11-18T11:12:00.590453+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -53,14 +53,14 @@
                 "degree": 4
             },
             {
-                "id": 2584,
+                "id": 2585,
                 "name": "Sérgio Adriany Santos Moreira",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 3
             },
             {
-                "id": 3518,
+                "id": 3519,
                 "name": "Ricardo dos Santos Dias",
                 "classification": "researcher",
                 "weighted_degree": 4,
@@ -101,6 +101,19 @@
                 "id": 194
             },
             {
+                "name": "Poliana Daré Zampirolli Pires",
+                "classification": "researcher",
+                "classification_confidence": "high",
+                "was_student": false,
+                "was_staff": true,
+                "campus_name": "Vitória",
+                "degree": 1,
+                "weighted_degree": 2,
+                "is_group_member": false,
+                "is_advisorship_neighbor": true,
+                "id": 415
+            },
+            {
                 "name": "Sérgio Adriany Santos Moreira",
                 "classification": "researcher",
                 "classification_confidence": "high",
@@ -111,7 +124,7 @@
                 "weighted_degree": 5,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 2584
+                "id": 2585
             },
             {
                 "name": "Sâmela Pedrada Cardoso",
@@ -137,20 +150,7 @@
                 "weighted_degree": 4,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 3518
-            },
-            {
-                "name": "Poliana Daré Zampirolli Pires",
-                "classification": "researcher",
-                "classification_confidence": "high",
-                "was_student": false,
-                "was_staff": true,
-                "campus_name": "Vitória",
-                "degree": 1,
-                "weighted_degree": 2,
-                "is_group_member": false,
-                "is_advisorship_neighbor": true,
-                "id": 415
+                "id": 3519
             }
         ],
         "edges": [
@@ -175,7 +175,7 @@
                     "research_group"
                 ],
                 "source": 194,
-                "target": 2584
+                "target": 2585
             },
             {
                 "weight": 1,
@@ -197,7 +197,7 @@
                     "research_group"
                 ],
                 "source": 194,
-                "target": 3518
+                "target": 3519
             },
             {
                 "weight": 1,
@@ -207,7 +207,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2584,
+                "source": 2585,
                 "target": 2299
             },
             {
@@ -218,8 +218,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2584,
-                "target": 3518
+                "source": 2585,
+                "target": 3519
             },
             {
                 "weight": 1,
@@ -230,7 +230,7 @@
                     "research_group"
                 ],
                 "source": 2299,
-                "target": 3518
+                "target": 3519
             }
         ]
     }

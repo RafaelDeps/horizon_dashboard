@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:40.979446+00:00",
+        "generated_at": "2026-11-18T11:12:01.260836+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -82,14 +82,14 @@
                 "degree": 5
             },
             {
-                "id": 3529,
+                "id": 3530,
                 "name": "Renato Benezath Cabelino Ribeiro",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 5
             },
             {
-                "id": 11452,
+                "id": 11687,
                 "name": "Flavio Gabriel Farias Cal",
                 "classification": "student",
                 "weighted_degree": 5,
@@ -110,35 +110,35 @@
                 "degree": 2
             },
             {
-                "id": 13795,
+                "id": 14141,
                 "name": "Dayvid Pretti Saraiva",
                 "classification": "student",
                 "weighted_degree": 2,
                 "degree": 1
             },
             {
-                "id": 17419,
+                "id": 17935,
                 "name": "Jorge Willians Bernardo Lemos",
                 "classification": "student",
                 "weighted_degree": 2,
                 "degree": 1
             },
             {
-                "id": 17420,
+                "id": 17936,
                 "name": "Gustavo Sabará Eklund",
                 "classification": "student",
                 "weighted_degree": 2,
                 "degree": 1
             },
             {
-                "id": 17421,
+                "id": 17937,
                 "name": "Pedro Lucas Belo Celante",
                 "classification": "student",
                 "weighted_degree": 2,
                 "degree": 1
             },
             {
-                "id": 17422,
+                "id": 17938,
                 "name": "Victória Viva Maia Gomes",
                 "classification": "student",
                 "weighted_degree": 2,
@@ -152,17 +152,17 @@
         "graph": {},
         "nodes": [
             {
-                "name": "Dayvid Pretti Saraiva",
+                "name": "Flavio Gabriel Farias Cal",
                 "classification": "student",
-                "classification_confidence": "high",
+                "classification_confidence": "medium",
                 "was_student": true,
                 "was_staff": false,
                 "campus_name": null,
                 "degree": 1,
-                "weighted_degree": 2,
+                "weighted_degree": 5,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 13795
+                "id": 11687
             },
             {
                 "name": "Renato Benezath Cabelino Ribeiro",
@@ -175,7 +175,7 @@
                 "weighted_degree": 5,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 3529
+                "id": 3530
             },
             {
                 "name": "Vinicius Moura Marques",
@@ -191,6 +191,19 @@
                 "id": 1291
             },
             {
+                "name": "Dayvid Pretti Saraiva",
+                "classification": "student",
+                "classification_confidence": "high",
+                "was_student": true,
+                "was_staff": false,
+                "campus_name": null,
+                "degree": 1,
+                "weighted_degree": 2,
+                "is_group_member": false,
+                "is_advisorship_neighbor": true,
+                "id": 14141
+            },
+            {
                 "name": "Jorge Willians Bernardo Lemos",
                 "classification": "student",
                 "classification_confidence": "high",
@@ -201,7 +214,7 @@
                 "weighted_degree": 2,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 17419
+                "id": 17935
             },
             {
                 "name": "Gustavo Sabará Eklund",
@@ -214,7 +227,7 @@
                 "weighted_degree": 2,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 17420
+                "id": 17936
             },
             {
                 "name": "Pedro Lucas Belo Celante",
@@ -227,7 +240,7 @@
                 "weighted_degree": 2,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 17421
+                "id": 17937
             },
             {
                 "name": "Victória Viva Maia Gomes",
@@ -240,20 +253,7 @@
                 "weighted_degree": 2,
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
-                "id": 17422
-            },
-            {
-                "name": "Flavio Gabriel Farias Cal",
-                "classification": "student",
-                "classification_confidence": "medium",
-                "was_student": true,
-                "was_staff": false,
-                "campus_name": null,
-                "degree": 1,
-                "weighted_degree": 5,
-                "is_group_member": false,
-                "is_advisorship_neighbor": true,
-                "id": 11452
+                "id": 17938
             },
             {
                 "name": "Jose Carlos Thompson Da Silva",
@@ -336,15 +336,15 @@
         ],
         "edges": [
             {
-                "weight": 2,
-                "initiative_count": 1,
+                "weight": 5,
+                "initiative_count": 3,
                 "research_group_count": 0,
-                "advisorship_count": 1,
+                "advisorship_count": 2,
                 "relation_types": [
                     "initiative",
                     "advisorship"
                 ],
-                "source": 13795,
+                "source": 11687,
                 "target": 1291
             },
             {
@@ -355,7 +355,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3529,
+                "source": 3530,
                 "target": 215
             },
             {
@@ -366,7 +366,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3529,
+                "source": 3530,
                 "target": 216
             },
             {
@@ -377,7 +377,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3529,
+                "source": 3530,
                 "target": 255
             },
             {
@@ -388,7 +388,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3529,
+                "source": 3530,
                 "target": 380
             },
             {
@@ -399,20 +399,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3529,
+                "source": 3530,
                 "target": 1291
-            },
-            {
-                "weight": 5,
-                "initiative_count": 3,
-                "research_group_count": 0,
-                "advisorship_count": 2,
-                "relation_types": [
-                    "initiative",
-                    "advisorship"
-                ],
-                "source": 1291,
-                "target": 11452
             },
             {
                 "weight": 2,
@@ -424,7 +412,7 @@
                     "advisorship"
                 ],
                 "source": 1291,
-                "target": 17419
+                "target": 17935
             },
             {
                 "weight": 2,
@@ -460,7 +448,7 @@
                     "advisorship"
                 ],
                 "source": 1291,
-                "target": 17420
+                "target": 14141
             },
             {
                 "weight": 2,
@@ -472,7 +460,7 @@
                     "advisorship"
                 ],
                 "source": 1291,
-                "target": 17421
+                "target": 17936
             },
             {
                 "weight": 2,
@@ -484,7 +472,19 @@
                     "advisorship"
                 ],
                 "source": 1291,
-                "target": 17422
+                "target": 17937
+            },
+            {
+                "weight": 2,
+                "initiative_count": 1,
+                "research_group_count": 0,
+                "advisorship_count": 1,
+                "relation_types": [
+                    "initiative",
+                    "advisorship"
+                ],
+                "source": 1291,
+                "target": 17938
             },
             {
                 "weight": 1,

@@ -1,6 +1,6 @@
 {
     "metadata": {
-        "generated_at": "2026-11-17T07:01:44.193641+00:00",
+        "generated_at": "2026-11-18T11:12:03.663410+00:00",
         "sources": {
             "researchers": "/home/runner/work/horizon_etl/horizon_etl/data/exports/researchers_canonical.json",
             "initiatives": "/home/runner/work/horizon_etl/horizon_etl/data/exports/initiatives_canonical.json",
@@ -61,21 +61,21 @@
                 "degree": 4
             },
             {
-                "id": 2342,
+                "id": 2343,
                 "name": "Rodrigo Guedes dos Santos",
                 "classification": "researcher",
                 "weighted_degree": 5,
                 "degree": 4
             },
             {
-                "id": 3501,
+                "id": 3502,
                 "name": "Helder Roberto de Oliveira Rocha",
                 "classification": "researcher",
                 "weighted_degree": 4,
                 "degree": 4
             },
             {
-                "id": 4571,
+                "id": 4572,
                 "name": "João Lucas Brum Orecchio",
                 "classification": "student",
                 "weighted_degree": 4,
@@ -106,7 +106,7 @@
                 "weighted_degree": 5,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 2342
+                "id": 2343
             },
             {
                 "name": "Gustavo Rigamonte Gasperazzo",
@@ -132,20 +132,7 @@
                 "weighted_degree": 4,
                 "is_group_member": true,
                 "is_advisorship_neighbor": false,
-                "id": 3501
-            },
-            {
-                "name": "João Lucas Brum Orecchio",
-                "classification": "student",
-                "classification_confidence": "medium",
-                "was_student": true,
-                "was_staff": false,
-                "campus_name": "Vitória",
-                "degree": 4,
-                "weighted_degree": 4,
-                "is_group_member": true,
-                "is_advisorship_neighbor": false,
-                "id": 4571
+                "id": 3502
             },
             {
                 "name": "Rodolfo Giacomim Mendes De Andrade",
@@ -159,6 +146,19 @@
                 "is_group_member": false,
                 "is_advisorship_neighbor": true,
                 "id": 219
+            },
+            {
+                "name": "João Lucas Brum Orecchio",
+                "classification": "student",
+                "classification_confidence": "medium",
+                "was_student": true,
+                "was_staff": false,
+                "campus_name": "Vitória",
+                "degree": 4,
+                "weighted_degree": 4,
+                "is_group_member": true,
+                "is_advisorship_neighbor": false,
+                "id": 4572
             },
             {
                 "name": "Leonardo Rodrigues de Araujo",
@@ -183,7 +183,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2342,
+                "source": 2343,
                 "target": 287
             },
             {
@@ -194,7 +194,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2342,
+                "source": 2343,
                 "target": 1226
             },
             {
@@ -205,8 +205,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2342,
-                "target": 3501
+                "source": 2343,
+                "target": 3502
             },
             {
                 "weight": 1,
@@ -216,8 +216,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 2342,
-                "target": 4571
+                "source": 2343,
+                "target": 4572
             },
             {
                 "weight": 3,
@@ -252,7 +252,7 @@
                     "research_group"
                 ],
                 "source": 1226,
-                "target": 3501
+                "target": 3502
             },
             {
                 "weight": 1,
@@ -263,7 +263,7 @@
                     "research_group"
                 ],
                 "source": 1226,
-                "target": 4571
+                "target": 4572
             },
             {
                 "weight": 1,
@@ -273,7 +273,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3501,
+                "source": 3502,
                 "target": 287
             },
             {
@@ -284,8 +284,8 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 3501,
-                "target": 4571
+                "source": 3502,
+                "target": 4572
             },
             {
                 "weight": 1,
@@ -295,7 +295,7 @@
                 "relation_types": [
                     "research_group"
                 ],
-                "source": 4571,
+                "source": 4572,
                 "target": 287
             }
         ]
